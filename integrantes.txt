@@ -1,0 +1,9 @@
+Practica2 Vue3
+
+Nombre(s) de integrante(s):
+- HERLAN ALAN LOPEZ GONZALES
+- LENNY LINETH MENDOZA GUTIERREZ
+
+Pasos para iniciar el proyecto
+1) npm install
+2) npm run serve

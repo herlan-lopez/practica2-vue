@@ -1,0 +1,211 @@
+{
+  "campeonato": [
+    {
+      "id": 1,
+      "nombre_campeonato": "APERTURA TIGO",
+      "gestion": 2024,
+      "estado_campeonato": "FINALIZADO"
+    },
+    {
+      "id": 2,
+      "nombre_campeonato": "CLAUSURA ENTEL",
+      "gestion": 2025,
+      "estado_campeonato": "EN MARCHA"
+    },
+    {
+      "nombre_campeonato": "COPA BOLIVIA",
+      "gestion": 2025,
+      "estado_campeonato": "EN MARCHA",
+      "id": 3
+    },
+    {
+      "nombre_campeonato": "COPA CENTENARIO",
+      "gestion": 2027,
+      "estado_campeonato": "EN MARCHA",
+      "id": 4
+    }
+  ],
+  "equipo": [
+    {
+      "id": 1,
+      "nombre_equipo": "SAN JOSE",
+      "fundacion": "1998-03-12",
+      "ubicacion": "ORURO"
+    },
+    {
+      "id": 2,
+      "nombre_equipo": "BOLIVAR",
+      "fundacion": "1990-08-12",
+      "ubicacion": "LA PAZ"
+    },
+    {
+      "nombre_equipo": "REAL POTOSI",
+      "fundacion": "1996-12-27",
+      "ubicacion": "POTOSI",
+      "id": 3
+    }
+  ],
+  "jugador": [
+    {
+      "id": 1,
+      "ci": "656565",
+      "nombre": "ALEX",
+      "apellido": "DA ROSA",
+      "fecha_nac": "1998-03-12",
+      "celular": "66767677",
+      "direccion": "LOS HUNGAROS",
+      "posicion": "MEDIOCAMPO",
+      "equipoId": 1,
+      "equipo": {
+        "id": 1,
+        "nombre_equipo": "SAN JOSE",
+        "fundacion": "1998-03-12",
+        "ubicacion": "ORURO"
+      }
+    },
+    {
+      "id": 2,
+      "ci": 6565657,
+      "nombre": "JOAQUIN ",
+      "apellido": "BOTERO ",
+      "fecha_nac": "1998-05-11",
+      "celular": "76732677",
+      "direccion": "CALACOTO",
+      "posicion": "DELANTERO",
+      "equipoId": 1,
+      "equipo": {
+        "id": 1,
+        "nombre_equipo": "SAN JOSE",
+        "fundacion": "1998-03-12",
+        "ubicacion": "ORURO"
+      }
+    },
+    {
+      "ci": 76868887,
+      "nombre": "CARLOS",
+      "apellido": "LAMPE",
+      "fecha_nac": "2000-11-27",
+      "celular": 77676788,
+      "direccion": "TEMBLADERANI",
+      "posicion": "ARQUERO",
+      "equipoId": 2,
+      "equipo": {
+        "id": 2,
+        "nombre_equipo": "BOLIVAR",
+        "fundacion": "1990-08-12",
+        "ubicacion": "LA PAZ"
+      },
+      "id": 3
+    },
+    {
+      "ci": 67567567,
+      "nombre": "CARLOS",
+      "apellido": "BORJA",
+      "fecha_nac": "1999-12-04",
+      "celular": 78668677,
+      "direccion": "ACHACHICALA",
+      "posicion": "MEDIOCAMPO",
+      "equipoId": 3,
+      "equipo": {
+        "nombre_equipo": "REAL POTOSI",
+        "fundacion": "1996-12-27",
+        "ubicacion": "POTOSI",
+        "id": 3
+      },
+      "id": 4
+    },
+    {
+      "ci": 76587878,
+      "nombre": "JOSE",
+      "apellido": "CASTILLO",
+      "fecha_nac": "2000-12-04",
+      "celular": 75756756,
+      "direccion": "SUD",
+      "posicion": "DELANTERO",
+      "equipoId": 2,
+      "equipo": {
+        "id": 2,
+        "nombre_equipo": "BOLIVAR",
+        "fundacion": "1990-08-12",
+        "ubicacion": "LA PAZ"
+      },
+      "id": 5
+    }
+  ],
+  "inscripcion": [
+    {
+      "id": 1,
+      "campeonatoId": 2,
+      "jugadorId": 3,
+      "equipoId": 2,
+      "fecha": "2024-12-29",
+      "hora": "08:08",
+      "equipo": {
+        "id": 2,
+        "nombre_equipo": "BOLIVAR",
+        "fundacion": "1990-08-12",
+        "ubicacion": "LA PAZ"
+      },
+      "campeonato": {
+        "id": 2,
+        "nombre_campeonato": "CLAUSURA ENTEL",
+        "gestion": 2025,
+        "estado_campeonato": "EN MARCHA"
+      },
+      "jugador": {
+        "ci": 76868887,
+        "nombre": "CARLOS",
+        "apellido": "LAMPE",
+        "fecha_nac": "1900-11-27",
+        "celular": 77676788,
+        "direccion": "TEMBLADERANI",
+        "posicion": "ARQUERO",
+        "equipoId": 2,
+        "equipo": {
+          "id": 2,
+          "nombre_equipo": "BOLIVAR",
+          "fundacion": "1990-08-12",
+          "ubicacion": "LA PAZ"
+        },
+        "id": 3
+      }
+    },
+    {
+      "id": 2,
+      "campeonatoId": 1,
+      "jugadorId": 4,
+      "equipoId": 3,
+      "fecha": "2024-12-27",
+      "hora": "11:11",
+      "equipo": {
+        "nombre_equipo": "REAL POTOSI",
+        "fundacion": "1996-12-27",
+        "ubicacion": "POTOSI",
+        "id": 3
+      },
+      "campeonato": {
+        "id": 1,
+        "nombre_campeonato": "APERTURA TIGO",
+        "gestion": 2024,
+        "estado_campeonato": "EN MARCHA"
+      },
+      "jugador": {
+        "ci": 67567567,
+        "nombre": "CARLOS",
+        "apellido": "BORJA",
+        "fecha_nac": "1999-12-04",
+        "celular": 78668677,
+        "direccion": "ACHACHICALA",
+        "posicion": "MEDIOCAMPO",
+        "equipoId": 2,
+        "equipo": {
+          "id": 2,
+          "nombre_equipo": "BOLIVAR",
+          "fundacion": "1990-08-12",
+          "ubicacion": "LA PAZ"
+        },
+        "id": 4
+      }
+    }
+  ]
+}
